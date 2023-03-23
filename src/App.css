@@ -1,0 +1,337 @@
+/* Nav bar custom css */
+nav {
+  padding-left: 25px!important;
+  padding-right: 25px!important;
+  background-color: white;
+}
+
+.nav-item {
+  padding: 0 1.3rem;
+  font-family: SST;
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+
+.nav-item button {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 1.15rem;
+  background-color: #0070cc;
+}
+
+/* Main custom css */
+main {
+  position: relative;
+  top: 58px;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("./images/backgrounds/Hero Banner.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  max-width: 50%
+}
+
+.hero h1 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.hero button {
+  font-weight: bold;
+  border-radius: 50px;
+  font-size: 1.2rem;
+}
+
+.hero-footer img {
+  border-radius: 15px;
+}
+
+.hero-footer-item img {
+  transition: transform 250ms;
+  opacity: 0.6;
+}
+
+.hero-footer-item img:hover {
+  opacity: 1;
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 50px grey;
+}
+
+/* Shop Section */
+.shop img {
+  max-width: 100%;
+}
+
+.shop h1 {
+  font-weight: 300;
+}
+
+.shop .buttons button {
+  margin: 0 5px;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1.1rem;
+}
+
+#shop-btn-primary {
+  background-color: #0070cc;
+  border-color: #0070cc;
+}
+
+#shop-btn-secondary {
+  background-color: #d53b00;
+  border-color: #d53b00;
+}
+
+.shop-footer-item {
+  transition: 0.3s;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.shop-footer-item:hover {
+  opacity: 1;
+}
+
+.shop-footer-item .card-title {
+  font-size: 1.1rem
+}
+
+/* PlayStation Plus Section */
+
+.playstation-plus {
+  background-image: url("./images/backgrounds/ps\ plus\ bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.playstation-plus img {
+  max-width: 100%;
+}
+
+.playstation-plus .buttons button {
+  margin: 0 5px;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1.1rem;
+}
+
+#playstation-plus-btn-primary {
+  background-color: #0070cc;
+  border-color: #0070cc;
+}
+
+.playstation-plus .logo {
+  height: 90px;
+}
+
+/* This Month Section */
+
+.this-month {
+  background-image: url("./images/backgrounds/harry\ potter.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.this-month .heading {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.heading h1 {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: bold!important;
+}
+
+.this-month h4 {
+  opacity: 0.7;
+}
+
+.month-footer {
+  text-align: center;
+}
+
+.month-footer-item img {
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  box-shadow: 0px 10px 20px rgb(35, 25, 39);
+  transition: transform 250ms;
+}
+
+.month-footer-item img:hover {
+  transform: scale(1.05);
+}
+
+.month-footer-item .card-title {
+  font-size: 1.7rem;
+}
+
+.this-month .buttons button {
+  margin: 0 5px;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1.1rem;
+}
+
+#month-btn-primary {
+  background-color: #0070cc;
+  border-color: #0070cc;
+}
+
+/* Social Section */
+
+.social {
+  text-align: center;
+  background-color: #f5f7fa;
+}
+
+.social h1 {
+  font-weight: 300;
+}
+
+.social .row {
+  padding: 5% 25%;
+}
+
+.social-item {
+  transition: 250ms;
+}
+
+.social-item:hover {
+  transform: scale(1.05)
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  top: 58px;
+  background-color: #00439c;
+  color: white;
+  font-family: SST;
+}
+
+footer a {
+  color: white!important;
+  padding-left: 0!important;
+  font-size: 0.8rem!important;
+  font-weight: 500!important;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #6e94c6;
+}
+
+footer .navbar-brand {
+  font-weight: bold;
+}
+
+footer .row {
+  border-bottom:#f5f7fa solid 1px;
+}
+
+
+
+/* SST Fonts */
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTRg.TTF);
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTRgCn.TTF);
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTRgIt.TTF);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTBold.TTF);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTBoldCn.TTF);
+  font-weight: bold;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTBoldIt.TTF);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTHeavy.TTF);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTHeavyIt.TTF);
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTLight.TTF);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTLightIt.TTF);
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTMedium.TTF);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTMediumIt.TTF);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SST;
+  src: url(./fonts/sst-cufonfonts/SSTMediumCn.TTF);
+  font-weight: 500;
+  font-stretch: condensed;
+}
